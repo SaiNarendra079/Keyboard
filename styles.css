@@ -1,0 +1,136 @@
+
+.main{
+  display: flex;
+}
+.first_row{
+  box-shadow: 2px 2px 2px grey;
+  width: 59px;
+  height: 30px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 5px;
+  font-size: 20px;
+}
+.fn{
+  font-size: medium;
+  text-align: right;
+  width: 54px;
+}
+.main2{
+  display: flex;
+}
+.second-row{
+  width: 60px;
+  text-align: center;
+  border: 1px solid black;
+  box-shadow: 2px 2px 2px grey;
+  border-radius: 10px;
+  margin: 5px;
+  font-size: 12px;
+}
+.main3{
+  display: flex;
+}
+.third-row{
+  box-shadow: 2px 2px 2px grey;
+  width: 40px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+.main4{
+  display: flex;
+}
+.fourth-row{
+  box-shadow: 2px 2px 2px grey;
+  width: 40px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+.main5{
+  display: flex;
+}
+.fifth-row{
+  box-shadow: 2px 2px 2px grey;
+  width: 40px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+.main6{
+  display: flex;
+}
+.sixth-row{
+  box-shadow: 2px 2px 2px grey;
+  width: 40px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+.sub2{
+  display: flex;
+  flex-direction: column;
+}
+.sub-row{
+  box-shadow: 2px 2px 2px grey;
+  width: 40px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+.first_row:hover,
+.sixth-row:hover{
+  background-color: aquamarine;
+  cursor: pointer;
+}
+.second-row:hover,.fifth-row:hover{
+  background-color: azure;
+  cursor: pointer;
+}
+.third-row:hover,.fourth-row:hover{
+  background-color: rgb(225, 174, 107);
+  transform: rotateY(180deg);
+  cursor: pointer;
+}
+.first_row:active,.sixth-row:active{
+  background-color: rgb(138, 230, 237);
+  position: relative;
+  top: 10px;
+}
+.second-row:active,.fifth-row:active{
+  background-color: rgb(215, 242, 157);
+  position: relative;
+  top: 10px;
+}
+.third-row:active,.fourth-row:active{
+  background-color: rgb(189, 189, 238);
+  position: relative;
+  top: 10px;
+}
+.sub-row:hover{
+  background-color: cadetblue;
+  transform: rotateY(180deg);
+  cursor: pointer;
+}
+.sub-row:active{
+  background-color: rgb(171, 241, 110);
+  position: relative;
+  top:10px;
+}
